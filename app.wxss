@@ -1,0 +1,7 @@
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #efefef;  
+  overflow: hidden;
+  font-family: "苹方","Microsoft YaHei","微软雅黑";
+} 

@@ -1,0 +1,117 @@
+<scroll-view class="w_con" scroll-y="true">
+  <!--姓名-->
+  <view class="w_edit" style="width:{{wtitwidth}};height:{{wtitheight}};background:{{wtitbg}};border-color:{{wtitbg}}">
+    <view class="w_jia" bindtap="slide" animation="{{waddanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wanimationData}}">姓名</text>
+    <view class="w_inpbox" animation="{{winpdown}}" style="display:{{inputbox}}">
+      <input bindblur="winner1" class="w_inptxt" type="text" placeholder="您的姓名(必填)" />
+    </view>
+  </view>
+
+  <!--年龄-->
+  <view class="w_edit" style="width:{{wagetitwidth}};height:{{wagetitheight}};background:{{wagetitbg}};border-color:{{wagetitbg}}">
+    <view class="w_jia" bindtap="slide2" animation="{{wageaddanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wageanimation}}">年龄</text>
+    <view class="w_inpbox" animation="{{wageinpdown}}" style="display:{{wageinputbox}}">
+      <input bindblur="winner2" class="w_inptxt" type="text" placeholder="您的年龄(必填)" />
+    </view>
+  </view>
+  <!--性别-->
+  <view class="w_edit" style="width:{{wsextitwidth}};height:{{wsextitheight}};background:{{wsextitbg}};border-color:{{wsextitbg}}">
+    <view class="w_jia" bindtap="slide3" animation="{{wsexaddanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wsexanimation}}">性别</text>
+    <view class="w_sexx" animation="{{wsexright}}">男</view>
+    <radio-group class="w_radiogroup" bindchange="radioChange" animation="{{wsexinpdown}}" style="display:{{wsexinputbox}}">
+      <label class="radio" wx:for="{{items}}" wx:key="">
+        <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+  <!--联系方式-->
+  <view class="w_edit" style="width:{{wlinktitwidth}};height:{{wlinktitheight}};background:{{wlinktitbg}};border-color:{{wlinktitbg}}">
+    <view class="w_jia" bindtap="slide4" animation="{{wlinkaddanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wlinkanimation}}">联系方式</text>
+    <view class="w_inpbox w_linkinbox" animation="{{wlinkinpdown}}" style="display:{{wlinkinputbox}}">
+      <input focus bindblur="winner3" class="w_inptxt" type="text" placeholder="联系电话(必填)" />
+      <input focus class="w_inptxt" type="text" placeholder="工作邮箱" />
+      <input focus class="w_inptxt" type="text" placeholder="联系地址" />
+    </view>
+  </view>
+
+  <!--学历信息-->
+  <view class="w_edit" style="width:{{wdiplotitwidth}};height:{{wdiplotitheight}};background:{{wdiplotitbg}};border-color:{{wdiplotitbg}}">
+    <view class="w_jia" bindtap="slide5" animation="{{wdiploaddanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wdiploanimation}}">学历信息</text>
+    <view class="w_inpbox" animation="{{wdiploinpdown}}" style="display:{{wdiploinputbox}}">
+      <picker class="w_pick" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          {{array[index]}}
+        </view>
+      </picker>
+      <image class="w_jiao" bindchange="bindPickerChange" src="../images/w_jiao.png"></image>
+      <input focus class="w_inptxt w_inptxtby" type="text" placeholder="请填写您的毕业信息" />
+    </view>
+  </view>
+  <!--技能信息-->
+  <view class="w_edit" style="width:{{wskilltitwidth}};height:{{wskilltitheight}};background:{{wskilltitbg}};border-color:{{wskilltitbg}}">
+    <view class="w_jia" bindtap="slide6" animation="{{wskilladdanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wskillanimation}}">技能信息</text>
+    <view class="w_inpbox" animation="{{wskillinpdown}}" style="display:{{wskillinputbox}}">
+      <input focus class="w_inptxt" type="text" placeholder="请填写您的职称信息" />
+    </view>
+  </view>
+  <!--公司信息-->
+  <view class="w_edit" style="width:{{wcompanytitwidth}};height:{{wcompanytitheight}};background:{{wcompanytitbg}};border-color:{{wcompanytitbg}}">
+    <view class="w_jia" bindtap="slide7" animation="{{wcompanyaddanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wcompanyanimation}}">公司信息</text>
+    <view class="w_inpbox w_linkinbox" animation="{{wcompanyinpdown}}" style="display:{{wcompanyinputbox}}">
+      <input focus class="w_inptxt" type="text" placeholder="公司" />
+      <input focus class="w_inptxt" type="text" placeholder="职位" />
+      <input focus class="w_inptxt" type="text" placeholder="部门" />
+    </view>
+  </view>
+  <!--相册-->
+  <view class="w_edit" style="width:{{wimgtitwidth}};height:{{wimgtitheight}};background:{{wimgtitbg}};border-color:{{wimgtitbg}}">
+    <view class="w_jia" bindtap="slide8" animation="{{wimgaddanima}}">
+      <image class="w_yj" src="../images/w_yj.png"></image>
+    </view>
+    <text class="w_txt" animation="{{wimganimation}}">相册</text>
+    <view class="w_imgbox" animation="{{wimginpdown}}" style="display:{{wimginputbox}}">
+      <view class="w_imgadd" bindtap="chooseimage" style="box-shadow:{{wsdyy}}">
+        <image class="w_img" src="../images/add.png"></image>
+      </view>
+      <view class="w_imgdes">您可以通过照片展示自己的工作状态和生活</view>
+      <view class="w_imgdesnum">(最多8张)</view>
+    </view>
+    <!--模板开始-->
+<template name="wwimglist" wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+      <image class="w_plimg" src="{{item[index]}}" catchTap="chooseImageTap" mode="aspectFit" />
+</template>
+    <!--模板结束-->
+    <view class="w_piclist"  style="display:{{wimglistdis}}">
+        <block wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+      <image class="w_plimg" src="{{item}}" catchTap="chooseImageTap" mode="aspectFit" />
+    </block>
+      <view class="w_plimg" bindtap="chooseimage1" style="display:{{wpldis}}">
+        <image class="w_add1" src="../images/add1.png"></image>
+      </view>
+      <view class="wclear"></view>
+    </view>
+  </view>
+  <navigator class="w_sub" style="display:{{wcompanyinputbox||wlinkinputbox||wsexinputbox||wskillinputbox||wdiploinputbox||wageinputbox||inputbox}};color:{{wscmpcol}};background:{{wbtnbg}}" bindtap="sub" url="{{taplink}}">上传名片</navigator>
+</scroll-view>

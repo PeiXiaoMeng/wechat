@@ -1,0 +1,42 @@
+<!--ge.wxml-->
+<view class="l_banner">
+  <view class="l_back">
+    <image src="{{background}}"></image>
+  </view>
+  <view class="l_phone">
+    <!--<view class="l_opa"></view>-->
+    <image src="{{phone}}"></image>
+  </view>
+  <view class="l_bannt">
+    <view class="l_user">{{username}}</view>
+    <view class="l_work">{{work}}<text>|</text>{{company}}</view>
+  </view>
+</view>
+<view class="l_xiang">
+   <view>个人信息</view>
+   <view><image src="../images/phone.png"></image>{{tel}}</view>
+   <view><image src="../images/mail.png"></image>{{mail}}</view>
+   <view><image src="../images/host.png"></image>{{host}}</view>
+</view>
+<view class="l_xue">
+    <view>学历信息</view>
+    <view><image src="../images/xue.png"></image>{{xue}}</view>
+</view>
+<view class="l_xue">
+    <view>技能信息</view>
+    <view><image src="../images/ji.png"></image>{{ji}}</view>
+</view>
+<view class="l_ce">
+    <view class="l_zhan">相册展示</view>
+    <view class="l_cebox">
+       <view><image src="{{img1}}"></image></view>
+       <view><image src="{{img2}}"></image></view>
+       <view><image src="{{img3}}"></image></view>
+       <view><image src="{{img4}}"></image></view>
+       <view><image src="{{img5}}"></image></view>
+       <view><image src="{{img6}}"></image></view>
+       <view><image src="{{img7}}"></image></view>
+       <view><image src="{{img8}}"></image></view>
+    </view>
+</view>
+<view class="l_moji">查看更多技能</view>

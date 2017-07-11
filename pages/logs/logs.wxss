@@ -1,0 +1,97 @@
+.l_box{
+  width: 552rpx;
+  height: 300rpx;
+  margin: 0 auto;
+  margin-top: 68rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0rpx 2rpx 7rpx 2rpx #d0d0d0; 
+}
+.l_xin{
+  width:148rpx;
+  height:148rpx;
+  margin-top:260rpx;
+  position:relative;
+  right:0px;
+  float: right;
+}
+.l_xin1{
+  width: 148rpx;
+  height:148rpx;
+   border-radius:50%;
+  background:#3dacff;
+  position: absolute;
+  background: #3dacff;
+  z-index: 111;
+}
+.l_xin1 image{
+  width: 105rpx;
+  height: 105rpx;
+  margin: 24rpx;
+}
+.l_xin2{
+  width: 117rpx;
+  height: 117rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 20rpx;
+  left: -2rpx;
+  background: #6dffff;
+  box-shadow:0px 0px 16px 2px #66ffff;
+   
+}
+button{
+  height:88rpx;
+  width:690rpx;
+  background:#3dacff;
+  border-radius:10rpx;
+  margin:0 auto;
+  margin-top:718rpx;
+  color: #fff;
+}
+.l_boxs{
+  width:432rpx;
+  height:216rpx;
+  margin:0 auto;
+  padding-top:21px;
+}
+.l_boxtop{
+  width:100%;
+  height:96rpx;
+}
+.l_boxtopl{
+  width:263rpx;
+  height:100%;
+  border-right:2px solid #6dffff;
+  float:left;
+}
+.l_name{
+  font-size: 50rpx;
+}
+.l_xue,.l_work,.l_tel,.l_sex,.l_age{
+  font-size:28rpx;
+  color: #333;
+}
+.l_boxtopr{
+   float: right;
+}
+.l_age{
+  margin-top: 15rpx;
+}
+.l_boxbottom{
+  margin-top:33rpx;
+}
+.l_boxbottoml{
+  width:263rpx;
+  float:left;
+}
+.l_tel{
+  margin-top:18rpx;
+}
+.l_boxbottomr{
+   width:83rpx;
+  height:83rpx;
+  background:#ccc;
+  float:right;
+
+}

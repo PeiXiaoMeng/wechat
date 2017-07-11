@@ -1,0 +1,31 @@
+<view class="l_box"  bindtouchstart = "handletouchtart" bindtouchmove="handletouchmove">
+  <view class="l_boxs">
+      <view class="l_boxtop">
+        <view class="l_boxtopl">
+          <view class="l_name">{{name}}</view>
+          <view class="l_xue">{{xue}}</view>
+        </view>
+        <view class="l_boxtopr">
+            <view class="l_sex">{{sex}}</view>
+            <view class="l_age">{{age}}</view>
+        </view>
+    </view>
+    <view class="l_boxbottom">
+      <view class="l_boxbottoml">
+        <view class="l_work">{{work}}</view>
+        <view class="l_tel">{{tel}}</view>
+      </view>
+      <view class="l_boxbottomr">
+        <view class="l_ma">{{ma}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="l_sbox">
+   <button class="l_fen" animation="{{animationDatal}}" open-type="share" style="display:{{display}}">
+      <image src="../images/fen.png"></image>
+   </button>
+</view>
+<view class="l_cha" animation="{{animationDatar}}" bindtap="del" style="display:{{display1}}">
+    <image src="../images/cha.png"></image>
+</view>

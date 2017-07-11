@@ -1,0 +1,5 @@
+<view class="l_box" bindtouchstart="add">
+  <view class="l_box1"><image src="../images/add.png"></image></view>
+  <view class="l_box2" style="display:{{display}}"></view>
+</view>
+<text>点击添加自己的名片</text>

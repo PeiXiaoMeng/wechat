@@ -1,0 +1,103 @@
+/* pages/login/login.wxss */
+page{
+  position: relative;
+}
+.l_box{
+  width: 552rpx;
+  height: 300rpx;
+  margin: 0 auto;
+  margin-top: 68rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  box-shadow: -2rpx 2rpx 7rpx 2rpx #d0d0d0; 
+  position: relative;
+  overflow: hidden;
+}
+.l_boxs{
+  width:432rpx;
+  height:216rpx;
+  left: 60rpx;
+  top:21px;
+  position: absolute;
+}
+.l_boxtop{
+  width:100%;
+  height:96rpx;
+}
+.l_boxtopl{
+  width:263rpx;
+  height:100%;
+  border-right:2px solid #6dffff;
+  float:left;
+}
+.l_name{
+  font-size: 50rpx;
+}
+.l_xue,.l_work,.l_tel,.l_sex,.l_age{
+  font-size:28rpx;
+  color: #333;
+}
+.l_boxtopr{
+   float: right;
+}
+.l_age{
+  margin-top: 15rpx;
+}
+.l_boxbottom{
+  margin-top:33rpx;
+}
+.l_boxbottoml{
+  width:263rpx;
+  float:left;
+}
+.l_tel{
+  margin-top:18rpx;
+}
+.l_boxbottomr{
+   width:83rpx;
+  height:83rpx;
+  background:#ccc;
+  float:right;
+
+}
+.l_sbox{
+  position: absolute;
+  right:99rpx;
+  top:167rpx;
+  width:205rpx;
+  height:95rpx;
+  overflow: hidden;
+  /*background: red;*/
+}
+button{
+  padding: 0;
+}
+.l_fen{
+  width:205rpx;
+  height:95rpx;
+  position:absolute;
+  right:-205rpx;
+  /*background:#6dffff;*/
+  z-index: 999;
+}
+.l_ssbox{
+  width:44rpx;
+  height:30rpx;
+  position:absolute;
+  top: 10rpx;
+  right: 100rpx;
+}
+.l_cha{
+  width:44rpx;
+  height:30rpx;
+  position:absolute;
+  right:53rpx;
+  top: 0rpx;
+}
+image{
+  width:100%;
+  height:100%;
+  display:inline-block;
+  overflow:hidden;
+
+}

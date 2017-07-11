@@ -1,0 +1,37 @@
+ .l_box{
+  width: 140rpx;
+  height: 140rpx;
+  margin:0 auto;
+  margin-top: 470rpx;
+  /*box-shadow: -2rpx 2rpx 5rpx 1rpx #6dffff;*/
+  position: relative;
+}
+.l_box1{
+  width: 140rpx;
+  height: 140rpx;
+  background: #ffffff;
+  border-radius: 10rpx;
+  position: absolute;
+  z-index: 111;
+}
+.l_box1 image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+}
+.l_box2{
+  width: 117rpx;
+  height: 117rpx;
+  position: absolute;
+  background: #6dffff;
+  left: 10rpx;
+  top: 10rpx;
+  box-shadow: -10rpx 10rpx 25rpx 5rpx #6dffff;
+}
+text{
+  font-size: 32rpx;
+  color: #999999;
+  text-align: center;
+  margin-top: 30rpx;
+  display: block;
+}

@@ -1,0 +1,8 @@
+<!--more.wxml-->
+<view class="l_box">
+  <image src="../images/tu.png"></image>
+</view>
+<text>了解更多技能，请下载即事APP</text>
+<view class="l_more">
+   下载即事APP
+</view>

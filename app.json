@@ -1,0 +1,18 @@
+{
+"pages": [
+  "pages/ge/ge",
+  "pages/register/register",
+  "pages/index/index",
+  "pages/login/login",
+  "pages/logs/logs",
+  
+  "pages/more/more"
+],
+  "window": {
+    "navigationBarBackgroundColor": "#3dacff",
+    "navigationBarTextStyle": "light",
+    "navigationBarTitleText": "即事名片",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  }
+}

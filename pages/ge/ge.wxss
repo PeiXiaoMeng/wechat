@@ -1,0 +1,159 @@
+/* ge.wxss */
+page{
+  overflow:scroll;
+}
+.l_banner{
+  width: 100%;
+  height: 515rpx;
+  margin: 0 auto;
+  position: relative;
+
+}
+.l_back{
+  height: 290rpx;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+image{
+  width:100%;
+  height:100%;
+  z-index:222;
+
+}
+.l_bannt{
+  height: 279rpx;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  top: 235rpx;
+}
+.l_user{
+  font-size: 34rpx;
+  color: #333;
+  text-align: center;
+  display: block;
+  margin-top: 97rpx;
+}
+.l_work{
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 30rpx;
+  text-align: center;
+  display: block;
+}
+text{
+  margin:0 15rpx; 
+}
+.l_phone{
+  width: 169rpx;
+  height: 169rpx;
+  position: absolute;
+  top: 104rpx;
+  left: 293rpx;
+  border-radius: 50%;
+  overflow:hidden;
+  z-index:222;
+
+}
+.l_xiang{
+  height: 355rpx;
+  width: 100%;
+  background: #fff;
+  margin-top: 32rpx;
+}
+.l_xiang view{
+  border-bottom:1px solid #ccc;
+  width:717rpx;
+  height:85rpx;
+  display:block;
+  line-height:85rpx;
+  margin-left:32rpx;
+  font-size: 25rpx;
+  color: #999;
+
+}
+.l_xiang view:nth-child(1){
+  font-size: 35rpx;
+  color: #000;
+}
+.l_xiang view:nth-child(4){
+  border-bottom: none;
+}
+.l_xiang image,.l_xue image{
+  width:30rpx;
+  height:30rpx;
+  margin-right:40rpx;
+  line-height:30rpx;
+  margin-top:26rpx;
+  display:block;
+  float:left;
+}
+.l_xue{
+  width: 100%;
+  height: 178rpx;
+  margin-top: 32rpx;
+  background: #fff;
+}
+.l_xue view{
+  width:717rpx;
+  height:85rpx;
+  display:block;
+  line-height:85rpx;
+  margin-left:32rpx;
+  font-size: 25rpx;
+  color: #999;
+}
+.l_xue view:nth-child(1){
+  font-size:35rpx;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+}
+.l_ce{
+   width: 100%;
+   height: 458rpx;
+   background: #fff;
+   margin-top: 32rpx;
+}
+.l_ce .l_zhan{
+   width:717rpx;
+  height:85rpx;
+  display:block;
+  line-height:85rpx;
+  margin-left:32rpx;
+  font-size:35rpx;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+}
+.l_cebox{
+  height: 370rpx;
+  width:100%;
+  border-bottom: none;
+}
+.l_cebox view{
+  width: 138rpx;
+  height: 138rpx;
+  float: left;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-top: 32rpx;
+  background: #ccc;
+  margin-right: 45rpx;
+}
+.l_cebox view:nth-child(1),.l_cebox view:nth-child(5){
+  margin-left: 32rpx;
+
+}
+.l_cebox view:nth-child(4),.l_cebox view:nth-child(8){
+  margin-right: 32rpx;
+}
+.l_moji{
+  width: 100%;
+  height: 86rpx;
+  color: #fff;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 86rpx;
+  margin-top: 16rpx;
+  background: #44aafd;
+}

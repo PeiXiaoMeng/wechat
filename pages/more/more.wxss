@@ -1,0 +1,35 @@
+/* more.wxss */
+.l_box{
+  width: 725rpx;
+  height: auto;
+  background: #FFF;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+}
+image{
+  width: 100%;
+  height: 900rpx;
+}
+text{
+
+  color:#999999;
+  font-size:32rpx;
+  text-align:center;
+  display:block;
+  margin-top:33rpx;
+  margin-bottom:36rpx;
+
+}
+.l_more{
+  background: #3dacff;
+  text-align: center;
+  color: #fff;
+  font-size: 36rpx;
+  height: 88rpx;
+  width: 690rpx;
+  margin: 0 auto;
+  line-height: 88rpx; 
+  border-radius: 10rpx;
+  
+}
